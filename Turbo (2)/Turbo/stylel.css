@@ -1,0 +1,281 @@
+
+body{
+    background-image:url(blacky.jpg);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    display:auto;
+    width:50%;
+    border:1px solid black;
+    margin-top:20px;
+}
+.bike{
+    width:50%;
+    box-shadow: 4px 4px 50px whitesmoke;    
+}
+.ptr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.form{
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 4px 4px 50px whitesmoke;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width:50%;
+    height:auto;
+    padding-top: 5px;
+    border:6px;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 70%;
+    border-radius: 4px;
+    border: 3px solid white;
+    padding: 8px;
+    font-weight:bold;    
+}
+#fieldset{
+    margin: 0 10px;
+    padding-top:4px;
+    padding-bottom:50%;
+    border-radius: 4px;
+    border: 3px solid black ;
+}
+#sub1{
+    width:100px;
+    font-weight: bold;
+    color: white;
+    background-color: #171717;
+    border: none;
+    border-radius: .6rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top:50px;
+}
+#fp,#sp{ 
+    font-weight:bold;
+    font-size:20px;
+    color:black;
+}
+.box{
+    background-color: #171717;
+    padding-left:900px;
+}
+
+/*css for head*/
+*{
+    margin:0;
+    padding:0;
+  }
+  .header{
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; /* Added */
+    align-items: center; /* Added */
+  }
+  .topnav{
+    overflow: hidden;
+    background-color:black;
+  }
+    
+    /* Style the topnav links */
+  .topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration:none;
+  }
+    
+    /* Change color on hover */
+  .topnav a:hover{
+    background-color:red;
+    color: white;
+  }
+  .logo{
+    width: auto; /* Changed */
+    height: 60px;
+    margin-left: 10px; /* Adjusted */
+    float: left;
+  }
+  .topnav.right-links{
+    float:right;
+  }
+  .midnav{
+    overflow: hidden;
+    background-color: grey;
+    display: flex;
+    justify-content: center; /* Center align the links */
+  }
+    
+      /* Style the topnav links */
+  .midnav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 65px; /* Make it oval */
+  }
+  .midnav a:hover {
+    background-color: red;
+  }
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+  #system{
+    color:rgb(255, 255, 255);
+    font-family:Ubuntu;
+    padding-left:1000px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }  
+/*footer*/
+footer{
+    padding: 2rem;
+    background: #000000c4;
+    margin-top: 3rem;
+    width: 100%;
+
+}
+.footer-container{
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.footer-content{
+    width: 33.3%;
+}
+.ftcn {
+    color:#9a9a9a;
+}
+h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color:white;
+    
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+    color: #ffffff;
+}
+.list{
+    padding: 0;
+    color: aliceblue;
+}
+
+
+.list li a
+{
+    color: #ffffff;
+}
+
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+    color: #ff0000;
+    
+}
+
+
+
+.list li a:hover{
+    color:  rgb(230, 10, 10);
+}
+.social-icons{
+    display:flex;
+    flex-direction: column; /* Display items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 0;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 5px;
+}
+
+.social-icons li{
+    padding:0 10px; /* Adjust spacing between icons */
+}
+
+
+
+.social-icons a img{
+    width: 25px; /* Adjust the size of the icons */
+    height: auto;
+    filter: brightness(0) invert(1); /* Change the color of the icons */
+}
+
+.social-icons a:hover img {
+    filter:rgb(216, 6, 6) ; /* Change color on hover */
+}
+
+ul{
+    list-style: none;
+}
+
+
+.bottom-bar{
+    background:rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.bottom-bar p{
+    color: #ffffff;
+    margin: 0;
+    font-size: 12px;
+    padding: 7px;
+}
+
+.subcon{
+    padding-left: 80px;
+}
+
+.sub{
+    align-content: center;
+    margin: 0;
+    padding:0;
+    border-radius: 5px;
+}
+
+.subscribe{
+
+    border-radius: 2px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-weight: 200px;
+    font-size: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+.subscribe :hover{
+
+    background-color:rgb(211, 15, 15) ;
+}
+
